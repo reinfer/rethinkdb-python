@@ -54,7 +54,7 @@ if RETHINKDB_VERSION_DESCRIBE:
 setuptools.setup(
     name='rethinkdb',
     zip_safe=True,
-    version=VERSION,
+    version="2.4.5.post1",
     description='Python driver library for the RethinkDB database server.',
     long_description=open('README.md', 'r').read(),
     long_description_content_type='text/markdown',
